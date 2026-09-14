@@ -43,7 +43,7 @@ flowchart TD
     N -->|yes| O[Cold Email Generator<br/>Ollama]
     I --> O
     O --> P[Cold email draft]
-    O --> P[CoverLetter  draft]
+    O --> R[CoverLetter  draft]
     N -->|no| Q[Skip email step]
 ```
 
