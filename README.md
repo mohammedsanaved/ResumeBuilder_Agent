@@ -40,7 +40,7 @@ flowchart TD
     L --> M[JobRole_CompanyName_CandidateName.docx]
 
     F --> N{Email found?}
-    N -->|yes| O[Cold Email Generator<br/>Ollama]
+    N -->|yes| O[Cold Email & CoverLetter Generator<br/>Ollama]
     I --> O
     O --> P[Cold email draft]
     O --> R[CoverLetter  draft]
