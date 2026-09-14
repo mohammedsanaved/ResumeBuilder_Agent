@@ -172,8 +172,6 @@ the default template, adjust:
 - [x] Tailored summary generation
 - [x] Cold email generation
 - [x] CLI wrapper (`main.py`)
-- [ ] Optional: simple web UI (e.g. Streamlit) instead of CLI
-- [ ] Optional: batch mode — process a folder of multiple JDs in one run
 
 ## Notes for other candidates using this
 
