@@ -1,0 +1,41 @@
+{
+  "_instructions": "Copy this file to candidate_profile.json and replace every placeholder below with your own details. This file holds the parts of your resume that DON'T change per job application (contact info, base skill list, work history, education). Only the summary and selected projects change per JD, and those are generated automatically by main.py.",
+
+  "candidate_name": "Your Full Name",
+  "tagline": "Your Title | Core Skill 1 \u2022 Core Skill 2 \u2022 Core Skill 3",
+
+  "contact": {
+    "phone": "+00-0000000000",
+    "email": "you@example.com",
+    "location": "Your City (Remote / Onsite / Hybrid)",
+    "portfolio": "yourportfolio.com",
+    "github": "github.com/yourusername",
+    "linkedin": "linkedin.com/in/yourusername"
+  },
+
+  "base_summary": "A 2-3 sentence factual description of your experience level, core stack, and the kind of work you do. Used as grounding context so the AI-generated per-JD summary stays truthful instead of inventing things.",
+
+  "skills": [
+    ["Category One:", "Skill, Skill, Skill, Skill"],
+    ["Category Two:", "Skill, Skill, Skill"],
+    ["Category Three:", "Skill, Skill, Skill, Skill, Skill"]
+  ],
+
+  "experience": [
+    {
+      "role": "Your Job Title",
+      "company": "Company Name \u2014 City, Country (Remote/Onsite)",
+      "dates": "Mon YYYY \u2013 Present | Full-Time",
+      "bullets": [
+        ["Short action prefix,", "rest of the achievement with a concrete metric if possible."],
+        ["Another prefix,", "another achievement."]
+      ]
+    }
+  ],
+
+  "education": {
+    "degree": "Your Degree",
+    "school": "Your School (GPA/CGPA if you want to include it)",
+    "years": "[YYYY \u2013 YYYY]"
+  }
+}
